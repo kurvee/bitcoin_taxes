@@ -1,0 +1,7 @@
+Currency,Description,Amount,Balance,Date
+BTC,Exchange 126.67414844 BTC for USD @ 334.75 on wallet Exchange,-126.67414844,0.0,2015-11-12 06:26:05
+BTC,Exchange 23.32585156 BTC for USD @ 334.75 on wallet Exchange,-23.32585156,126.67414844,2015-11-12 06:26:02
+BTC,Deposit (BITCOIN) #651445 on wallet Exchange,50.0,150.0,2015-11-11 02:44:27
+BTC,Transfer of 100.0 BTC from wallet Trading to Exchange on wallet Exchange,100.0,100.0,2015-11-11 00:21:44
+BTC,Transfer of 100.0 BTC from wallet Trading to Exchange on wallet Trading,-100.0,0.0,2015-11-11 00:21:44
+BTC,Deposit (BITCOIN) #650897 on wallet Trading,100.0,100.0,2015-11-10 23:57:34
