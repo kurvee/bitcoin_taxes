@@ -674,6 +674,7 @@ def fmv(timestamp):
 
 def fetch_prices(force_download=False):
     print "Fetching fair market values..."
+    m = None
     for url in reversed(parsed_args.fmv_urls):
         if not url:
             # Empty parameter ignores all previous.
@@ -688,9 +689,14 @@ def fetch_prices(force_download=False):
                 if line == 'datetime,high,low,average,volume':
                     format = 'bitcoinaverage'
                     continue
-                elif re.match(r'\d\d/\d\d/\d\d\d\d \d\d:\d\d:\d\d,\d+\.\d*', line):
-                    format = 'blockchain'
-                else:
+                m = re.match(r'(\d\d\d\d-\d\d-\d\d) \d\d:\d\d:\d\d,(\d+\.\d*)', line)
+                if m != None:
+                    format = 'bitcoinaverage_price'
+                elif m != None:
+                    m = re.match(r'\d\d/\d\d/\d\d\d\d \d\d:\d\d:\d\d,\d+\.\d*', line)
+                    if m:
+                        format = 'blockchain'
+                elif m == None:
                     raise ValueError, "Unknown format: %s" % line
             cols = line.strip().split(',')
             if format == 'bitcoinaverage':
@@ -699,6 +705,9 @@ def fetch_prices(force_download=False):
                     price = (decimal.Decimal(cols[1]) + decimal.Decimal(cols[2])) / 2
                 else:
                     price = cols[3]  # avg published for earlier dates
+            elif format == 'bitcoinaverage_price':
+                date = m.group(1)
+                price = decimal.Decimal(m.group(2))
             else:
                 date = '-'.join(reversed(cols[0].split()[0].split('/')))
                 price = cols[1]
@@ -882,6 +891,7 @@ def main(args):
     pprint.pprint(all[25:35])
     by_month = RunningReport("%Y-%m")
     transfered_out = []
+    wash_loss_total = 0.0
     print
     for ix, t in enumerate(all):
         if exit:
@@ -998,6 +1008,7 @@ def main(args):
                     recent_sells.insert(0, (recent_sell_remainder, recent_sell_buy_remainder))
                 wash_buy, buy = buy.split(recent_sell.btc)
                 loss = recent_sell_buy.usd - recent_sell.usd
+                wash_loss_total += float(loss)
                 print "Wash sale", recent_sell, wash_buy
                 print "Originally bought at", recent_sell_buy, "loss", loss
                 gains += loss
@@ -1082,6 +1093,10 @@ def main(args):
             print "cost basis:", round(cost_basis, 2), "fmv:", round(market_price * account_btc[account], 2)
         while account_lots:
             print account_lots.pop()
+            
+    if not args.nowash:
+        print
+        print "Wash sale total loss: %2.2f" % (wash_loss_total) 
 
     if transfered_out:
         print
@@ -1103,9 +1118,16 @@ def main(args):
     print
 
     market_price = fmv(time.gmtime(time.time() - 24*60*60))
-    unrealized_gains = market_price * total_btc - total_cost - dissallowed_loss
+    adjusted_gains = float(gains) - wash_loss_total
+    wash_deduction = float(gains) - adjusted_gains
+    wash_deduction_pct = wash_deduction / float(gains) * 100
+    if args.nowash:
+        unrealized_gains = market_price * total_btc - total_cost - dissallowed_loss
+    else:
+        unrealized_gains = market_price * total_btc - total_cost
     print "total_btc", total_btc, "total_cost", total_cost, "market_price", market_price
     print "gains", gains, "unrealized_gains", unrealized_gains
+    print "adjusted gains: %2.2f wash sale deductions: %2.2f (%2.2f%%)" % (adjusted_gains, wash_deduction, wash_deduction_pct)
     print
 
 #    format = "{date:8} {income:>12.2f} {gains:>12.2f} {long_term_gains:>12.2f} {unrealized_gains:>12.2f} {total:>12.2f}"

@@ -1,5 +1,5 @@
-csv/Bitstamp/Transactions.csv <__main__.BitstampParser2 instance at 0x7ff843500878>
-csv/Bitfinex <__main__.BitfinexParser instance at 0x7ff843500638>
+csv/Bitstamp/Transactions.csv <__main__.BitstampParser2 instance at 0x7f625cc5cbd8>
+csv/Bitfinex <__main__.BitfinexParser instance at 0x7f625cc5c200>
 match withdraw(2015-11-10 22:46:00, 0.00, -100.00000000, Bitstamp2) deposit(2015-11-10 23:57:34, 0, 100.00000000, Bitfinex)
 match withdraw(2015-11-11 02:10:00, 0.00, -50.00000000, Bitstamp2) deposit(2015-11-11 02:44:27, 0, 50.00000000, Bitfinex)
 []
@@ -29,167 +29,167 @@ https://blockchain.info/charts/market-price?timespan=all&daysAverageString=1&for
 https://api.bitcoinaverage.com/history/USD/per_day_all_time_history.csv
 Done
 
-On Fri, 12 Dec 2014 19:12:00 +0000 you sent 0E-8 btc (~$0.00 at 355.08/btc).
+On Fri, 12 Dec 2014 19:12:00 +0000 you sent 0E-8 btc (~$0.00 at 351.23/btc).
 None
 1 trade(2014-12-15 23:07:00, -17425.00, 50.00000000, Bitstamp2, fee=87.13 USD)
 trade(2014-12-15 23:07:00, -17425.00, 50.00000000, Bitstamp2, fee=87.13 USD)
 btc 50.00000000 usd -17512.13
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('50.00000000')})
 dissallowed_loss 0
-total_btc 50.00000000 total_cost 17512.13 market_price 352.15
-gains 0 long_term_gains 0 unrealized_gains 95.3700000000 total 95.3700000000
+total_btc 50.00000000 total_cost 17512.13 market_price 348.945
+gains 0 long_term_gains 0 unrealized_gains -64.88000000000 total -64.88000000000
 
 2 trade(2014-12-16 09:09:00, -7881.12, 23.38610465, Bitstamp2, fee=28.38 USD)
 trade(2014-12-16 09:09:00, -7881.12, 23.38610465, Bitstamp2, fee=28.38 USD)
 btc 23.38610465 usd -7909.50
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('73.38610465')})
 dissallowed_loss 0
-total_btc 73.38610465 total_cost 25421.63 market_price 336.73
-gains 0 long_term_gains 0 unrealized_gains -710.3269812055 total -710.3269812055
+total_btc 73.38610465 total_cost 25421.63 market_price 336.90
+gains 0 long_term_gains 0 unrealized_gains -697.8513434150 total -697.8513434150
 
 3 trade(2014-12-16 09:09:00, -543.88, 1.61389535, Bitstamp2, fee=1.75 USD)
 trade(2014-12-16 09:09:00, -543.88, 1.61389535, Bitstamp2, fee=1.75 USD)
 btc 1.61389535 usd -545.63
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('75.00000000')})
 dissallowed_loss 0
-total_btc 75.00000000 total_cost 25967.26 market_price 336.73
-gains 0 long_term_gains 0 unrealized_gains -712.5100000000 total -712.5100000000
+total_btc 75.00000000 total_cost 25967.26 market_price 336.90
+gains 0 long_term_gains 0 unrealized_gains -699.7600000000 total -699.7600000000
 
 4 trade(2014-12-17 17:05:00, -8000.00, 25.00000000, Bitstamp2, fee=25.60 USD)
 trade(2014-12-17 17:05:00, -8000.00, 25.00000000, Bitstamp2, fee=25.60 USD)
 btc 25.00000000 usd -8025.60
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('100.00000000')})
 dissallowed_loss 0
-total_btc 100.00000000 total_cost 33992.86 market_price 318.2
-gains 0 long_term_gains 0 unrealized_gains -2172.860000000 total -2172.860000000
+total_btc 100.00000000 total_cost 33992.86 market_price 324.775
+gains 0 long_term_gains 0 unrealized_gains -1515.36000000000 total -1515.36000000000
 
 5 trade(2014-12-17 17:05:00, -7987.50, 25.00000000, Bitstamp2, fee=25.56 USD)
 trade(2014-12-17 17:05:00, -7987.50, 25.00000000, Bitstamp2, fee=25.56 USD)
 btc 25.00000000 usd -8013.06
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('125.00000000')})
 dissallowed_loss 0
-total_btc 125.00000000 total_cost 42005.92 market_price 318.2
-gains 0 long_term_gains 0 unrealized_gains -2230.920000000 total -2230.920000000
+total_btc 125.00000000 total_cost 42005.92 market_price 324.775
+gains 0 long_term_gains 0 unrealized_gains -1409.04500000000 total -1409.04500000000
 
 6 trade(2015-01-04 19:23:00, -100.01, 0.37223153, Bitstamp2, fee=0.31 USD)
 trade(2015-01-04 19:23:00, -100.01, 0.37223153, Bitstamp2, fee=0.31 USD)
 btc 0.37223153 usd -100.32
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('125.37223153')})
 dissallowed_loss 0
-total_btc 125.37223153 total_cost 42106.24 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8139.1413115771 total -8139.1413115771
+total_btc 125.37223153 total_cost 42106.24 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7989.32149489875 total -7989.32149489875
 
 7 trade(2015-01-04 19:23:00, -481.99, 1.79400000, Bitstamp2, fee=1.45 USD)
 trade(2015-01-04 19:23:00, -481.99, 1.79400000, Bitstamp2, fee=1.45 USD)
 btc 1.79400000 usd -483.44
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('127.16623153')})
 dissallowed_loss 0
-total_btc 127.16623153 total_cost 42589.68 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8136.5328915771 total -8136.5328915771
+total_btc 127.16623153 total_cost 42589.68 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7984.56924489875 total -7984.56924489875
 
 8 trade(2015-01-04 19:23:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 trade(2015-01-04 19:23:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 btc 0.05000000 usd -13.48
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('127.21623153')})
 dissallowed_loss 0
-total_btc 127.21623153 total_cost 42603.16 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8136.4663915771 total -8136.4663915771
+total_btc 127.21623153 total_cost 42603.16 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7984.44299489875 total -7984.44299489875
 
 9 trade(2015-01-04 19:23:00, -22.96, 0.08543942, Bitstamp2, fee=0.07 USD)
 trade(2015-01-04 19:23:00, -22.96, 0.08543942, Bitstamp2, fee=0.07 USD)
 btc 0.08543942 usd -23.03
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('127.30167095')})
 dissallowed_loss 0
-total_btc 127.30167095 total_cost 42626.19 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8136.3482895165 total -8136.3482895165
+total_btc 127.30167095 total_cost 42626.19 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7984.22279273125 total -7984.22279273125
 
 10 trade(2015-01-04 19:23:00, -217.57, 0.80980369, Bitstamp2, fee=0.66 USD)
 trade(2015-01-04 19:23:00, -217.57, 0.80980369, Bitstamp2, fee=0.66 USD)
 btc 0.80980369 usd -218.23
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('128.11147464')})
 dissallowed_loss 0
-total_btc 128.11147464 total_cost 42844.42 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8135.1781757848 total -8135.1781757848
+total_btc 128.11147464 total_cost 42844.42 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7982.08496359000 total -7982.08496359000
 
 11 trade(2015-01-04 19:23:00, -142.93, 0.53200000, Bitstamp2, fee=0.43 USD)
 trade(2015-01-04 19:23:00, -142.93, 0.53200000, Bitstamp2, fee=0.43 USD)
 btc 0.53200000 usd -143.36
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('128.64347464')})
 dissallowed_loss 0
-total_btc 128.64347464 total_cost 42987.78 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8134.4034157848 total -8134.4034157848
+total_btc 128.64347464 total_cost 42987.78 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7980.67446359000 total -7980.67446359000
 
 12 trade(2015-01-04 19:23:00, -70.12, 0.26100000, Bitstamp2, fee=0.22 USD)
 trade(2015-01-04 19:23:00, -70.12, 0.26100000, Bitstamp2, fee=0.22 USD)
 btc 0.26100000 usd -70.34
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('128.90447464')})
 dissallowed_loss 0
-total_btc 128.90447464 total_cost 43058.12 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8134.0306857848 total -8134.0306857848
+total_btc 128.90447464 total_cost 43058.12 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7979.98983859000 total -7979.98983859000
 
 13 trade(2015-01-04 19:24:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 trade(2015-01-04 19:24:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 btc 0.05000000 usd -13.48
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('128.95447464')})
 dissallowed_loss 0
-total_btc 128.95447464 total_cost 43071.60 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8133.9641857848 total -8133.9641857848
+total_btc 128.95447464 total_cost 43071.60 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7979.86358859000 total -7979.86358859000
 
 14 trade(2015-01-04 19:24:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 trade(2015-01-04 19:24:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 btc 0.05000000 usd -13.48
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('129.00447464')})
 dissallowed_loss 0
-total_btc 129.00447464 total_cost 43085.08 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8133.8976857848 total -8133.8976857848
+total_btc 129.00447464 total_cost 43085.08 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7979.73733859000 total -7979.73733859000
 
 15 trade(2015-01-04 19:24:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 trade(2015-01-04 19:24:00, -13.43, 0.05000000, Bitstamp2, fee=0.05 USD)
 btc 0.05000000 usd -13.48
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('129.05447464')})
 dissallowed_loss 0
-total_btc 129.05447464 total_cost 43098.56 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8133.8311857848 total -8133.8311857848
+total_btc 129.05447464 total_cost 43098.56 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7979.61108859000 total -7979.61108859000
 
 16 trade(2015-01-04 19:24:00, -5373.40, 20.00000000, Bitstamp2, fee=16.13 USD)
 trade(2015-01-04 19:24:00, -5373.40, 20.00000000, Bitstamp2, fee=16.13 USD)
 btc 20.00000000 usd -5389.53
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('149.05447464')})
 dissallowed_loss 0
-total_btc 149.05447464 total_cost 48488.09 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8104.7611857848 total -8104.7611857848
+total_btc 149.05447464 total_cost 48488.09 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7926.64108859000 total -7926.64108859000
 
 17 trade(2015-01-04 19:24:00, -254.03, 0.94552536, Bitstamp2, fee=0.77 USD)
 trade(2015-01-04 19:24:00, -254.03, 0.94552536, Bitstamp2, fee=0.77 USD)
 btc 0.94552536 usd -254.80
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('150.00000000')})
 dissallowed_loss 0
-total_btc 150.00000000 total_cost 48742.89 market_price 270.93
-gains 0 long_term_gains 0 unrealized_gains -8103.3900000000 total -8103.3900000000
+total_btc 150.00000000 total_cost 48742.89 market_price 272.125
+gains 0 long_term_gains 0 unrealized_gains -7924.14000000000 total -7924.14000000000
 
 18 trade(2015-08-26 19:46:00, -1484.09, 6.52346691, Bitstamp2)
 trade(2015-08-26 19:46:00, -1484.09, 6.52346691, Bitstamp2)
 btc 6.52346691 usd -1484.09
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('156.52346691')})
 dissallowed_loss 0
-total_btc 156.52346691 total_cost 50226.98 market_price 228.84
-gains 0 long_term_gains 0 unrealized_gains -14408.1498323156 total -14408.1498323156
+total_btc 156.52346691 total_cost 50226.98 market_price 225.87
+gains 0 long_term_gains 0 unrealized_gains -14873.0245290383 total -14873.0245290383
 
 19 trade(2015-08-26 19:47:00, -9.02, 0.03966500, Bitstamp2)
 trade(2015-08-26 19:47:00, -9.02, 0.03966500, Bitstamp2)
 btc 0.03966500 usd -9.02
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('156.56313191')})
 dissallowed_loss 0
-total_btc 156.56313191 total_cost 50236.00 market_price 228.84
-gains 0 long_term_gains 0 unrealized_gains -14408.0928937156 total -14408.0928937156
+total_btc 156.56313191 total_cost 50236.00 market_price 225.87
+gains 0 long_term_gains 0 unrealized_gains -14873.0853954883 total -14873.0853954883
 
 20 trade(2015-08-26 19:59:00, -21256.89, 93.43686809, Bitstamp2)
 trade(2015-08-26 19:59:00, -21256.89, 93.43686809, Bitstamp2)
 btc 93.43686809 usd -21256.89
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('250.00000000')})
 dissallowed_loss 0
-total_btc 250.00000000 total_cost 71492.89 market_price 228.84
-gains 0 long_term_gains 0 unrealized_gains -14282.8900000000 total -14282.8900000000
+total_btc 250.00000000 total_cost 71492.89 market_price 225.87
+gains 0 long_term_gains 0 unrealized_gains -15025.3900000000 total -15025.3900000000
 
 21 trade(2015-10-29 10:36:00, 1592.48, -5.14116808, Bitstamp2, fee=3.99 USD)
 trade(2015-10-29 10:36:00, 1592.48, -5.14116808, Bitstamp2, fee=3.99 USD)
@@ -197,8 +197,8 @@ btc -5.14116808 usd 1588.49
 Lot(2014-12-15, 50.00000000, 350.2426)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('244.85883192')})
 dissallowed_loss 0.00
-total_btc 244.85883192 total_cost 69692.23 market_price 310.36
-gains -212.17 long_term_gains 0 unrealized_gains 6302.1570746912 total 6089.9870746912
+total_btc 244.85883192 total_cost 69692.23 market_price 311.115
+gains -212.17 long_term_gains 0 unrealized_gains 6487.02549279080 total 6274.85549279080
 
 22 trade(2015-10-29 10:36:00, 1316.44, -4.25000000, Bitstamp2, fee=3.30 USD)
 trade(2015-10-29 10:36:00, 1316.44, -4.25000000, Bitstamp2, fee=3.30 USD)
@@ -206,8 +206,8 @@ btc -4.25000000 usd 1313.14
 Lot(2014-12-15, 44.85883192, 350.2425125116811111117313284)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('240.60883192')})
 dissallowed_loss 0.00
-total_btc 240.60883192 total_cost 68203.70 market_price 310.36
-gains -387.56 long_term_gains 0 unrealized_gains 6471.6570746912 total 6084.0970746912
+total_btc 240.60883192 total_cost 68203.70 market_price 311.115
+gains -387.56 long_term_gains 0 unrealized_gains 6653.31674279080 total 6265.75674279080
 
 23 trade(2015-10-29 10:36:00, 309.75, -1.00000000, Bitstamp2, fee=0.78 USD)
 trade(2015-10-29 10:36:00, 309.75, -1.00000000, Bitstamp2, fee=0.78 USD)
@@ -215,8 +215,8 @@ btc -1.00000000 usd 308.97
 Lot(2014-12-15, 40.60883192, 350.2425292118572220188105327)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('239.60883192')})
 dissallowed_loss 0.00
-total_btc 239.60883192 total_cost 67853.46 market_price 310.36
-gains -428.83 long_term_gains 0 unrealized_gains 6511.5370746912 total 6082.7070746912
+total_btc 239.60883192 total_cost 67853.46 market_price 311.115
+gains -428.83 long_term_gains 0 unrealized_gains 6692.44174279080 total 6263.61174279080
 
 24 trade(2015-10-29 10:37:00, 100.11, -0.32320000, Bitstamp2, fee=0.26 USD)
 trade(2015-10-29 10:37:00, 100.11, -0.32320000, Bitstamp2, fee=0.26 USD)
@@ -224,8 +224,8 @@ btc -0.32320000 usd 99.85
 Lot(2014-12-15, 39.60883192, 350.2425930666021014032468342)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('239.28563192')})
 dissallowed_loss 0.00
-total_btc 239.28563192 total_cost 67740.26 market_price 310.36
-gains -442.18 long_term_gains 0 unrealized_gains 6524.4287226912 total 6082.2487226912
+total_btc 239.28563192 total_cost 67740.26 market_price 311.115
+gains -442.18 long_term_gains 0 unrealized_gains 6705.08937479080 total 6262.90937479080
 
 25 trade(2015-10-29 10:37:00, 6.69, -0.02161300, Bitstamp2, fee=0.02 USD)
 trade(2015-10-29 10:37:00, 6.69, -0.02161300, Bitstamp2, fee=0.02 USD)
@@ -233,8 +233,8 @@ btc -0.02161300 usd 6.67
 Lot(2014-12-15, 39.28563192, 350.2425524939856942996069287)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('239.26401892')})
 dissallowed_loss 0.00
-total_btc 239.26401892 total_cost 67732.69 market_price 310.36
-gains -443.08 long_term_gains 0 unrealized_gains 6525.2909120112 total 6082.2109120112
+total_btc 239.26401892 total_cost 67732.69 market_price 311.115
+gains -443.08 long_term_gains 0 unrealized_gains 6705.93524629580 total 6262.85524629580
 
 26 trade(2015-10-29 10:37:00, 1300.95, -4.20000000, Bitstamp2, fee=3.26 USD)
 trade(2015-10-29 10:37:00, 1300.95, -4.20000000, Bitstamp2, fee=3.26 USD)
@@ -242,8 +242,8 @@ btc -4.20000000 usd 1297.69
 Lot(2014-12-15, 39.26401892, 350.2425472038255629487660200)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('235.06401892')})
 dissallowed_loss 0.00
-total_btc 235.06401892 total_cost 66261.67 market_price 310.36
-gains -616.41 long_term_gains 0 unrealized_gains 6692.7989120112 total 6076.3889120112
+total_btc 235.06401892 total_cost 66261.67 market_price 311.115
+gains -616.41 long_term_gains 0 unrealized_gains 6870.27224629580 total 6253.86224629580
 
 27 trade(2015-10-29 10:37:00, 6166.50, -19.90800000, Bitstamp2, fee=15.42 USD)
 trade(2015-10-29 10:37:00, 6166.50, -19.90800000, Bitstamp2, fee=15.42 USD)
@@ -251,8 +251,8 @@ btc -19.90800000 usd 6151.08
 Lot(2014-12-15, 35.06401892, 350.2425100790471510503052170)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('215.15601892')})
 dissallowed_loss 0.00
-total_btc 215.15601892 total_cost 59289.04 market_price 310.36
-gains -1437.96 long_term_gains 0 unrealized_gains 7486.7820320112 total 6048.8220320112
+total_btc 215.15601892 total_cost 59289.04 market_price 311.115
+gains -1437.96 long_term_gains 0 unrealized_gains 7649.22482629580 total 6211.26482629580
 
 28 trade(2015-10-29 10:37:00, 353.54, -1.14137470, Bitstamp2, fee=0.89 USD)
 trade(2015-10-29 10:37:00, 353.54, -1.14137470, Bitstamp2, fee=0.89 USD)
@@ -260,8 +260,8 @@ btc -1.14137470 usd 352.65
 Lot(2014-12-15, 15.15601892, 350.2423709035591517986835556)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('214.01464422')})
 dissallowed_loss 0.00
-total_btc 214.01464422 total_cost 58889.28 market_price 310.36
-gains -1485.07 long_term_gains 0 unrealized_gains 7532.3049801192 total 6047.2349801192
+total_btc 214.01464422 total_cost 58889.28 market_price 311.115
+gains -1485.07 long_term_gains 0 unrealized_gains 7693.88603650530 total 6208.81603650530
 
 29 trade(2015-10-29 10:37:00, 1248.29, -4.03000000, Bitstamp2, fee=3.13 USD)
 trade(2015-10-29 10:37:00, 1248.29, -4.03000000, Bitstamp2, fee=3.13 USD)
@@ -269,8 +269,8 @@ btc -4.03000000 usd 1245.16
 Lot(2014-12-15, 14.01464422, 350.2422125704165752985486777)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('209.98464422')})
 dissallowed_loss 0.00
-total_btc 209.98464422 total_cost 57477.80 market_price 310.36
-gains -1651.39 long_term_gains 0 unrealized_gains 7693.0341801192 total 6041.6441801192
+total_btc 209.98464422 total_cost 57477.80 market_price 311.115
+gains -1651.39 long_term_gains 0 unrealized_gains 7851.57258650530 total 6200.18258650530
 
 30 trade(2015-10-29 10:38:00, 6475.01, -20.90400000, Bitstamp2, fee=16.19 USD)
 trade(2015-10-29 10:38:00, 6475.01, -20.90400000, Bitstamp2, fee=16.19 USD)
@@ -279,8 +279,8 @@ Lot(2014-12-15, 9.98464422, 350.2418236390600205081718976)
 Lot(2014-12-16, 23.38610465, 338.2136579979770166640385747)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('189.08064422')})
 dissallowed_loss 0.00
-total_btc 189.08064422 total_cost 50287.68 market_price 310.36
-gains -2382.69 long_term_gains 0 unrealized_gains 8395.3887401192 total 6012.6987401192
+total_btc 189.08064422 total_cost 50287.68 market_price 311.115
+gains -2382.69 long_term_gains 0 unrealized_gains 8538.14462650530 total 6155.45462650530
 
 31 trade(2015-10-29 10:38:00, 7075.00, -22.84100000, Bitstamp2, fee=17.69 USD)
 trade(2015-10-29 10:38:00, 7075.00, -22.84100000, Bitstamp2, fee=17.69 USD)
@@ -290,8 +290,8 @@ Lot(2014-12-16, 1.61389535, 338.0826396209642713203182598)
 Lot(2014-12-17, 25.00000000, 321.024)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('166.23964422')})
 dissallowed_loss 0.00
-total_btc 166.23964422 total_cost 42713.35 market_price 310.36
-gains -2899.71 long_term_gains 0 unrealized_gains 8880.7859801192 total 5981.0759801192
+total_btc 166.23964422 total_cost 42713.35 market_price 311.115
+gains -2899.71 long_term_gains 0 unrealized_gains 9006.29691150530 total 6106.58691150530
 
 32 trade(2015-10-29 10:38:00, 1440.34, -4.65000000, Bitstamp2, fee=3.46 USD)
 trade(2015-10-29 10:38:00, 1440.34, -4.65000000, Bitstamp2, fee=3.46 USD)
@@ -299,8 +299,8 @@ btc -4.65000000 usd 1436.88
 Lot(2014-12-17, 16.23964422, 321.0242742620872515641848218)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('161.58964422')})
 dissallowed_loss 0.00
-total_btc 161.58964422 total_cost 41220.59 market_price 310.36
-gains -2955.59 long_term_gains 0 unrealized_gains 8930.3719801192 total 5974.7819801192
+total_btc 161.58964422 total_cost 41220.59 market_price 311.115
+gains -2955.59 long_term_gains 0 unrealized_gains 9052.37216150530 total 6096.78216150530
 
 33 trade(2015-10-29 10:38:00, 4990.07, -16.11000000, Bitstamp2, fee=11.98 USD)
 trade(2015-10-29 10:38:00, 4990.07, -16.11000000, Bitstamp2, fee=11.98 USD)
@@ -309,8 +309,8 @@ Lot(2014-12-17, 11.58964422, 321.0245223558726291944792763)
 Lot(2014-12-17, 25.00000000, 320.5224)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('145.47964422')})
 dissallowed_loss 0.00
-total_btc 145.47964422 total_cost 36051.15 market_price 310.36
-gains -3146.94 long_term_gains 0 unrealized_gains 9099.9123801192 total 5952.9723801192
+total_btc 145.47964422 total_cost 36051.15 market_price 311.115
+gains -3146.94 long_term_gains 0 unrealized_gains 9209.74951150530 total 6062.80951150530
 
 34 trade(2015-10-29 10:38:00, 15487.50, -50.00000000, Bitstamp2, fee=37.17 USD)
 trade(2015-10-29 10:38:00, 15487.50, -50.00000000, Bitstamp2, fee=37.17 USD)
@@ -331,8 +331,8 @@ Lot(2015-01-04, 0.94552536, 269.4798159617844623437704516)
 Lot(2015-08-26, 6.52346691, 227.5001959042664937806820269)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('95.47964422')})
 dissallowed_loss 0.00
-total_btc 95.47964422 total_cost 21721.62 market_price 310.36
-gains -2026.14 long_term_gains 0 unrealized_gains 7911.4423801192 total 5885.3023801192
+total_btc 95.47964422 total_cost 21721.62 market_price 311.115
+gains -2026.14 long_term_gains 0 unrealized_gains 7983.52951150530 total 5957.38951150530
 
 35 trade(2015-10-29 10:39:00, 6755.34, -21.80900000, Bitstamp2, fee=16.22 USD)
 trade(2015-10-29 10:39:00, 6755.34, -21.80900000, Bitstamp2, fee=16.22 USD)
@@ -342,8 +342,8 @@ Lot(2015-08-26, 0.03966500, 227.4045127946552376150258414)
 Lot(2015-08-26, 93.43686809, 227.5000268579742803748763793)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('73.67064422')})
 dissallowed_loss 0.00
-total_btc 73.67064422 total_cost 16760.07 market_price 310.36
-gains -248.57 long_term_gains 0 unrealized_gains 6104.3511401192 total 5855.7811401192
+total_btc 73.67064422 total_cost 16760.07 market_price 311.115
+gains -248.57 long_term_gains 0 unrealized_gains 6159.97247650530 total 5911.40247650530
 
 36 trade(2015-10-29 10:39:00, 1505.38, -4.86000000, Bitstamp2, fee=3.62 USD)
 trade(2015-10-29 10:39:00, 1505.38, -4.86000000, Bitstamp2, fee=3.62 USD)
@@ -351,8 +351,8 @@ btc -4.86000000 usd 1501.76
 Lot(2015-08-26, 73.67064422, 227.4999788239940546565781070)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('68.81064422')})
 dissallowed_loss 0.00
-total_btc 68.81064422 total_cost 15654.42 market_price 310.36
-gains 147.54 long_term_gains 0 unrealized_gains 5701.6515401192 total 5849.1915401192
+total_btc 68.81064422 total_cost 15654.42 market_price 311.115
+gains 147.54 long_term_gains 0 unrealized_gains 5753.60357650530 total 5901.14357650530
 
 37 trade(2015-10-29 10:39:00, 6943.67, -22.41700000, Bitstamp2, fee=16.67 USD)
 trade(2015-10-29 10:39:00, 6943.67, -22.41700000, Bitstamp2, fee=16.67 USD)
@@ -360,8 +360,8 @@ btc -22.41700000 usd 6927.00
 Lot(2015-08-26, 68.81064422, 227.4999773283622369202111795)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('46.39364422')})
 dissallowed_loss 0.00
-total_btc 46.39364422 total_cost 10554.55 market_price 310.36
-gains 1974.67 long_term_gains 0 unrealized_gains 3844.1814201192 total 5818.8514201192
+total_btc 46.39364422 total_cost 10554.55 market_price 311.115
+gains 1974.67 long_term_gains 0 unrealized_gains 3879.20862150530 total 5853.87862150530
 
 38 trade(2015-10-29 10:39:00, 92.92, -0.30000000, Bitstamp2, fee=0.23 USD)
 trade(2015-10-29 10:39:00, 92.92, -0.30000000, Bitstamp2, fee=0.23 USD)
@@ -369,8 +369,8 @@ btc -0.30000000 usd 92.69
 Lot(2015-08-26, 46.39364422, 227.4999124869350476732176828)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('46.09364422')})
 dissallowed_loss 0.00
-total_btc 46.09364422 total_cost 10486.30 market_price 310.36
-gains 1999.11 long_term_gains 0 unrealized_gains 3819.3234201192 total 5818.4334201192
+total_btc 46.09364422 total_cost 10486.30 market_price 311.115
+gains 1999.11 long_term_gains 0 unrealized_gains 3854.12412150530 total 5853.23412150530
 
 39 trade(2015-10-29 10:39:00, 9985.60, -32.23761097, Bitstamp2, fee=23.97 USD)
 trade(2015-10-29 10:39:00, 9985.60, -32.23761097, Bitstamp2, fee=23.97 USD)
@@ -378,8 +378,8 @@ btc -32.23761097 usd 9961.63
 Lot(2015-08-26, 46.09364422, 227.4999119173571822219440908)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('13.85603325')})
 dissallowed_loss 0.00
-total_btc 13.85603325 total_cost 3152.25 market_price 310.36
-gains 4626.69 long_term_gains 0 unrealized_gains 1148.1084794700 total 5774.7984794700
+total_btc 13.85603325 total_cost 3152.25 market_price 311.115
+gains 4626.69 long_term_gains 0 unrealized_gains 1158.56978457375 total 5785.25978457375
 
 40 trade(2015-10-29 10:39:00, 107.93, -0.34845000, Bitstamp2, fee=0.26 USD)
 trade(2015-10-29 10:39:00, 107.93, -0.34845000, Bitstamp2, fee=0.26 USD)
@@ -387,8 +387,8 @@ btc -0.34845000 usd 107.67
 Lot(2015-08-26, 13.85603325, 227.5001757808281818319106588)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('13.50758325')})
 dissallowed_loss 0.00
-total_btc 13.50758325 total_cost 3072.98 market_price 310.36
-gains 4655.09 long_term_gains 0 unrealized_gains 1119.2335374700 total 5774.3235374700
+total_btc 13.50758325 total_cost 3072.98 market_price 311.115
+gains 4655.09 long_term_gains 0 unrealized_gains 1129.43176282375 total 5784.52176282375
 
 41 trade(2015-10-29 10:39:00, 1517.78, -4.90000000, Bitstamp2, fee=3.65 USD)
 trade(2015-10-29 10:39:00, 1517.78, -4.90000000, Bitstamp2, fee=3.65 USD)
@@ -396,8 +396,8 @@ btc -4.90000000 usd 1514.13
 Lot(2015-08-26, 13.50758325, 227.5003561425394139251372002)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('8.60758325')})
 dissallowed_loss 0.00
-total_btc 8.60758325 total_cost 1958.23 market_price 310.36
-gains 5054.47 long_term_gains 0 unrealized_gains 713.2195374700 total 5767.6895374700
+total_btc 8.60758325 total_cost 1958.23 market_price 311.115
+gains 5054.47 long_term_gains 0 unrealized_gains 719.71826282375 total 5774.18826282375
 
 42 trade(2015-10-29 10:39:00, 1496.41, -4.83102502, Bitstamp2, fee=3.60 USD)
 trade(2015-10-29 10:39:00, 1496.41, -4.83102502, Bitstamp2, fee=3.60 USD)
@@ -405,8 +405,8 @@ btc -4.83102502 usd 1492.81
 Lot(2015-08-26, 8.60758325, 227.5005588821926293887427693)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('3.77655823')})
 dissallowed_loss 0.00
-total_btc 3.77655823 total_cost 859.17 market_price 310.36
-gains 5448.22 long_term_gains 0 unrealized_gains 312.9226122628 total 5761.1426122628
+total_btc 3.77655823 total_cost 859.17 market_price 311.115
+gains 5448.22 long_term_gains 0 unrealized_gains 315.77391372645 total 5763.99391372645
 
 43 trade(2015-10-29 10:40:00, 90.29, -0.29147930, Bitstamp2, fee=0.22 USD)
 trade(2015-10-29 10:40:00, 90.29, -0.29147930, Bitstamp2, fee=0.22 USD)
@@ -414,8 +414,8 @@ btc -0.29147930 usd 90.07
 Lot(2015-08-26, 3.77655823, 227.5007950824049653273848766)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('3.48507893')})
 dissallowed_loss 0.00
-total_btc 3.48507893 total_cost 792.86 market_price 310.36
-gains 5471.98 long_term_gains 0 unrealized_gains 288.7690967148 total 5760.7490967148
+total_btc 3.48507893 total_cost 792.86 market_price 311.115
+gains 5471.98 long_term_gains 0 unrealized_gains 291.40033130695 total 5763.38033130695
 
 44 trade(2015-10-29 10:40:00, 805.35, -2.60000000, Bitstamp2, fee=1.94 USD)
 trade(2015-10-29 10:40:00, 805.35, -2.60000000, Bitstamp2, fee=1.94 USD)
@@ -423,8 +423,8 @@ btc -2.60000000 usd 803.41
 Lot(2015-08-26, 3.48507893, 227.5013036792254228801641517)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0.88507893')})
 dissallowed_loss 0.00
-total_btc 0.88507893 total_cost 201.36 market_price 310.36
-gains 5683.89 long_term_gains 0 unrealized_gains 73.3330967148 total 5757.2230967148
+total_btc 0.88507893 total_cost 201.36 market_price 311.115
+gains 5683.89 long_term_gains 0 unrealized_gains 74.00133130695 total 5757.89133130695
 
 45 trade(2015-10-29 10:40:00, 274.15, -0.88507893, Bitstamp2, fee=0.66 USD)
 trade(2015-10-29 10:40:00, 274.15, -0.88507893, Bitstamp2, fee=0.66 USD)
@@ -432,8 +432,8 @@ btc -0.88507893 usd 273.49
 Lot(2015-08-26, 0.88507893, 227.5051333557335954206931578)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8')})
 dissallowed_loss 0.00
-total_btc 0E-8 total_cost 0.00 market_price 310.36
-gains 5756.02 long_term_gains 0 unrealized_gains 0E-10 total 5756.0200000000
+total_btc 0E-8 total_cost 0.00 market_price 311.115
+gains 5756.02 long_term_gains 0 unrealized_gains 0E-11 total 5756.02000000000
 
 46 trade(2015-11-06 00:56:00, -267.23, 0.71787100, Bitstamp2, fee=0.65 USD)
 trade(2015-11-06 00:56:00, -267.23, 0.71787100, Bitstamp2, fee=0.65 USD)
@@ -442,8 +442,8 @@ Wash sale Lot(2015-10-29, 0.71787100, 308.9691601973056440502541543) Lot(2015-11
 Originally bought at Lot(2014-12-15, 0.71787100, 350.2439853399844818915933364) loss 29.63
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0.71787100')})
 dissallowed_loss 29.63
-total_btc 0.71787100 total_cost 267.88 market_price 388.38
-gains 5785.65 long_term_gains 0 unrealized_gains -18.7032610200 total 5766.9467389800
+total_btc 0.71787100 total_cost 267.88 market_price 373.875
+gains 5785.65 long_term_gains 0 unrealized_gains -29.11597987500 total 5756.53402012500
 
 47 trade(2015-11-06 00:56:00, -88.97, 0.23900000, Bitstamp2, fee=0.22 USD)
 trade(2015-11-06 00:56:00, -88.97, 0.23900000, Bitstamp2, fee=0.22 USD)
@@ -452,8 +452,8 @@ Wash sale Lot(2015-10-29, 0.23900000, 308.9958158995815899581589958) Lot(2015-11
 Originally bought at Lot(2014-12-15, 0.23900000, 350.2510460251046025104602510) loss 9.86
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0.95687100')})
 dissallowed_loss 39.49
-total_btc 0.95687100 total_cost 357.07 market_price 388.38
-gains 5795.51 long_term_gains 0 unrealized_gains -24.9304410200 total 5770.5795589800
+total_btc 0.95687100 total_cost 357.07 market_price 373.875
+gains 5795.51 long_term_gains 0 unrealized_gains -38.80985487500 total 5756.70014512500
 
 48 trade(2015-11-06 00:56:00, -69.34, 0.18627651, Bitstamp2, fee=0.17 USD)
 trade(2015-11-06 00:56:00, -69.34, 0.18627651, Bitstamp2, fee=0.17 USD)
@@ -462,8 +462,8 @@ Wash sale Lot(2015-10-29, 0.18627651, 308.9493141137333955848754091) Lot(2015-11
 Originally bought at Lot(2014-12-15, 0.18627651, 350.2320287190263549601611067) loss 7.69
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('1.14314751')})
 dissallowed_loss 47.18
-total_btc 1.14314751 total_cost 426.58 market_price 388.38
-gains 5803.20 long_term_gains 0 unrealized_gains -29.7843700662 total 5773.4156299338
+total_btc 1.14314751 total_cost 426.58 market_price 373.875
+gains 5803.20 long_term_gains 0 unrealized_gains -46.36572469875 total 5756.83427530125
 
 49 trade(2015-11-06 00:56:00, -107.58, 0.28900000, Bitstamp2, fee=0.26 USD)
 trade(2015-11-06 00:56:00, -107.58, 0.28900000, Bitstamp2, fee=0.26 USD)
@@ -472,8 +472,8 @@ Wash sale Lot(2015-10-29, 0.28900000, 308.9619377162629757785467128) Lot(2015-11
 Originally bought at Lot(2014-12-15, 0.28900000, 350.2422145328719723183391003) loss 11.93
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('1.43214751')})
 dissallowed_loss 59.11
-total_btc 1.43214751 total_cost 534.42 market_price 388.38
-gains 5815.13 long_term_gains 0 unrealized_gains -37.3125500662 total 5777.8174499338
+total_btc 1.43214751 total_cost 534.42 market_price 373.875
+gains 5815.13 long_term_gains 0 unrealized_gains -58.08584969875 total 5757.04415030125
 
 50 trade(2015-11-06 00:56:00, -1861.25, 5.00000000, Bitstamp2, fee=4.47 USD)
 trade(2015-11-06 00:56:00, -1861.25, 5.00000000, Bitstamp2, fee=4.47 USD)
@@ -484,8 +484,8 @@ Wash sale Lot(2015-10-29, 1.29097943, 308.9747138728616303359690247) Lot(2015-11
 Originally bought at Lot(2014-12-15, 1.29097943, 350.2457045345796098393295081) loss 53.28
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('6.43214751')})
 dissallowed_loss 265.45
-total_btc 6.43214751 total_cost 2400.14 market_price 388.38
-gains 6021.47 long_term_gains 0 unrealized_gains -167.4725500662 total 5853.9974499338
+total_btc 6.43214751 total_cost 2400.14 market_price 373.875
+gains 6021.47 long_term_gains 0 unrealized_gains -260.77084969875 total 5760.69915030125
 
 51 trade(2015-11-06 00:56:00, -1861.25, 5.00000000, Bitstamp2, fee=4.47 USD)
 trade(2015-11-06 00:56:00, -1861.25, 5.00000000, Bitstamp2, fee=4.47 USD)
@@ -502,8 +502,8 @@ Wash sale Lot(2015-10-29, 0.69616643, 308.9778402558135415980917092) Lot(2015-11
 Originally bought at Lot(2014-12-15, 0.69616643, 350.2467075294050016172138608) loss 28.73
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('11.43214751')})
 dissallowed_loss 471.81
-total_btc 11.43214751 total_cost 4265.86 market_price 388.38
-gains 6227.83 long_term_gains 0 unrealized_gains -297.6525500662 total 5930.1774499338
+total_btc 11.43214751 total_cost 4265.86 market_price 373.875
+gains 6227.83 long_term_gains 0 unrealized_gains -463.47584969875 total 5764.35415030125
 
 52 trade(2015-11-06 00:56:00, -85162.39, 228.77741619, Bitstamp2, fee=204.39 USD)
 trade(2015-11-06 00:56:00, -85162.39, 228.77741619, Bitstamp2, fee=204.39 USD)
@@ -536,24 +536,24 @@ Wash sale Lot(2015-10-29, 20.47964422, 309.0068329321787407496281202) Lot(2015-1
 Originally bought at Lot(2014-12-17, 20.47964422, 320.5221696961686768990169498) loss 235.83
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('240.20956370')})
 dissallowed_loss 3382.77
-total_btc 240.20956370 total_cost 89632.64 market_price 388.38
-gains 9138.79 long_term_gains 0 unrealized_gains 277.1803498060 total 9415.9703498060
+total_btc 240.20956370 total_cost 89632.64 market_price 373.875
+gains 9138.79 long_term_gains 0 unrealized_gains -3207.05937166250 total 5931.73062833750
 
 53 trade(2015-11-06 00:57:00, -126.60, 0.34008273, Bitstamp2, fee=0.28 USD)
 trade(2015-11-06 00:57:00, -126.60, 0.34008273, Bitstamp2, fee=0.28 USD)
 btc 0.34008273 usd -126.88
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('240.54964643')})
 dissallowed_loss 3382.77
-total_btc 240.54964643 total_cost 89759.52 market_price 388.38
-gains 9138.79 long_term_gains 0 unrealized_gains 282.3816804834 total 9421.1716804834
+total_btc 240.54964643 total_cost 89759.52 market_price 373.875
+gains 9138.79 long_term_gains 0 unrealized_gains -3206.79094098375 total 5931.99905901625
 
 54 trade(2015-11-06 00:57:00, -3517.89, 9.45035357, Bitstamp2, fee=7.74 USD)
 trade(2015-11-06 00:57:00, -3517.89, 9.45035357, Bitstamp2, fee=7.74 USD)
 btc 9.45035357 usd -3525.63
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('250.00000000')})
 dissallowed_loss 3382.77
-total_btc 250.00000000 total_cost 93285.15 market_price 388.38
-gains 9138.79 long_term_gains 0 unrealized_gains 427.0800000000 total 9565.8700000000
+total_btc 250.00000000 total_cost 93285.15 market_price 373.875
+gains 9138.79 long_term_gains 0 unrealized_gains -3199.17000000000 total 5939.62000000000
 
 55 trade(2015-11-06 17:23:00, 11099.81, -28.10078828, Bitstamp2, fee=24.42 USD)
 trade(2015-11-06 17:23:00, 11099.81, -28.10078828, Bitstamp2, fee=24.42 USD)
@@ -573,8 +573,8 @@ Lot(2015-11-06, 4.03000000, 373.1439205955334987593052109, dissallowed_loss=166.
 Lot(2015-11-06, 20.47964422, 373.1432010199247494544609818, dissallowed_loss=235.83)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('221.89921172')})
 dissallowed_loss 2599.10
-total_btc 221.89921172 total_cost 82945.04 market_price 388.38
-gains 9090.40 long_term_gains 0 unrealized_gains 637.0758478136 total 9727.4758478136
+total_btc 221.89921172 total_cost 82945.04 market_price 373.875
+gains 9090.40 long_term_gains 0 unrealized_gains -2581.57221818500 total 6508.82778181500
 
 56 trade(2015-11-06 17:25:00, 17429.82, -44.12612658, Bitstamp2, fee=38.35 USD)
 trade(2015-11-06 17:25:00, 17429.82, -44.12612658, Bitstamp2, fee=38.35 USD)
@@ -587,8 +587,8 @@ Lot(2015-11-06, 7.84100345, 403.2200751040353132353232162, dissallowed_loss=90.2
 Lot(2015-11-06, 19.90800000, 373.1434599156118143459915612, dissallowed_loss=821.55)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('177.77308514')})
 dissallowed_loss 1606.38
-total_btc 177.77308514 total_cost 66532.58 market_price 388.38
-gains 9076.69 long_term_gains 0 unrealized_gains 904.5508066732 total 9981.2408066732
+total_btc 177.77308514 total_cost 66532.58 market_price 373.875
+gains 9076.69 long_term_gains 0 unrealized_gains -1674.04779328250 total 7402.64220671750
 
 57 trade(2015-11-06 17:31:00, 8718.84, -22.07301265, Bitstamp2, fee=19.19 USD)
 trade(2015-11-06 17:31:00, 8718.84, -22.07301265, Bitstamp2, fee=19.19 USD)
@@ -598,8 +598,8 @@ Lot(2015-11-06, 4.65000000, 373.1440860215053763440860215, dissallowed_loss=55.8
 Lot(2015-11-06, 15.09889579, 427.5544443637755579211133823, dissallowed_loss=623.09)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.70007249')})
 dissallowed_loss 831.49
-total_btc 155.70007249 total_cost 58113.23 market_price 388.38
-gains 8582.10 long_term_gains 0 unrealized_gains 1526.0741536662 total 10108.1741536662
+total_btc 155.70007249 total_cost 58113.23 market_price 373.875
+gains 8582.10 long_term_gains 0 unrealized_gains -732.35539780125 total 7849.74460219875
 
 58 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -607,8 +607,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 12.46674887, 373.1429940964231519007088173, dissallowed_loss=364.50)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.68743958')})
 dissallowed_loss 831.12
-total_btc 155.68743958 total_cost 58108.89 market_price 388.38
-gains 8582.37 long_term_gains 0 unrealized_gains 1525.8777840804 total 10108.2477840804
+total_btc 155.68743958 total_cost 58108.89 market_price 373.875
+gains 8582.37 long_term_gains 0 unrealized_gains -732.36852702750 total 7850.00147297250
 
 59 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -616,8 +616,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 10.91935578, 373.1438083062442352253861628, dissallowed_loss=319.27)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.67480667')})
 dissallowed_loss 830.75
-total_btc 155.67480667 total_cost 58104.55 market_price 388.38
-gains 8582.64 long_term_gains 0 unrealized_gains 1525.6814144946 total 10108.3214144946
+total_btc 155.67480667 total_cost 58104.55 market_price 373.875
+gains 8582.64 long_term_gains 0 unrealized_gains -732.38165625375 total 7850.25834374625
 
 60 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -625,8 +625,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 1.17971671, 427.5517975836758301067041765, dissallowed_loss=48.68)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.66217376')})
 dissallowed_loss 830.23
-total_btc 155.66217376 total_cost 58099.67 market_price 388.38
-gains 8582.22 long_term_gains 0 unrealized_gains 1526.1750449088 total 10108.3950449088
+total_btc 155.66217376 total_cost 58099.67 market_price 373.875
+gains 8582.22 long_term_gains 0 unrealized_gains -731.70478548000 total 7850.51521452000
 
 61 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -634,8 +634,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 12.45411596, 402.4107384334969689811688569, dissallowed_loss=364.13)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.64954085')})
 dissallowed_loss 829.86
-total_btc 155.64954085 total_cost 58094.96 market_price 388.38
-gains 8582.12 long_term_gains 0 unrealized_gains 1526.3486753230 total 10108.4686753230
+total_btc 155.64954085 total_cost 58094.96 market_price 373.875
+gains 8582.12 long_term_gains 0 unrealized_gains -731.34791470625 total 7850.77208529375
 
 62 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -643,8 +643,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 10.90672287, 402.4169360782520735304976168, dissallowed_loss=318.90)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.63690794')})
 dissallowed_loss 829.49
-total_btc 155.63690794 total_cost 58090.25 market_price 388.38
-gains 8582.02 long_term_gains 0 unrealized_gains 1526.5223057372 total 10108.5423057372
+total_btc 155.63690794 total_cost 58090.25 market_price 373.875
+gains 8582.02 long_term_gains 0 unrealized_gains -730.99104393250 total 7851.02895606750
 
 63 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -652,8 +652,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 1.16708380, 427.5528458196403720109901277, dissallowed_loss=48.16)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.62427503')})
 dissallowed_loss 828.97
-total_btc 155.62427503 total_cost 58085.37 market_price 388.38
-gains 8581.60 long_term_gains 0 unrealized_gains 1527.0159361514 total 10108.6159361514
+total_btc 155.62427503 total_cost 58085.37 market_price 373.875
+gains 8581.60 long_term_gains 0 unrealized_gains -730.31417315875 total 7851.28582684125
 
 64 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -661,8 +661,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 12.44148305, 402.4110292864161399150883383, dissallowed_loss=363.76)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.61164212')})
 dissallowed_loss 828.60
-total_btc 155.61164212 total_cost 58080.66 market_price 388.38
-gains 8581.50 long_term_gains 0 unrealized_gains 1527.1895665656 total 10108.6895665656
+total_btc 155.61164212 total_cost 58080.66 market_price 373.875
+gains 8581.50 long_term_gains 0 unrealized_gains -729.95730238500 total 7851.54269761500
 
 65 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -670,8 +670,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 10.89408996, 402.4172754306868235187586059, dissallowed_loss=318.53)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.59900921')})
 dissallowed_loss 828.23
-total_btc 155.59900921 total_cost 58075.95 market_price 388.38
-gains 8581.40 long_term_gains 0 unrealized_gains 1527.3631969798 total 10108.7631969798
+total_btc 155.59900921 total_cost 58075.95 market_price 373.875
+gains 8581.40 long_term_gains 0 unrealized_gains -729.60043161125 total 7851.79956838875
 
 66 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -679,8 +679,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 1.15445089, 427.5539169968503380858409663, dissallowed_loss=47.64)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.58637630')})
 dissallowed_loss 827.71
-total_btc 155.58637630 total_cost 58071.07 market_price 388.38
-gains 8580.98 long_term_gains 0 unrealized_gains 1527.8568273940 total 10108.8368273940
+total_btc 155.58637630 total_cost 58071.07 market_price 373.875
+gains 8580.98 long_term_gains 0 unrealized_gains -728.92356083750 total 7852.05643916250
 
 67 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
 trade(2015-11-06 17:31:00, 4.99, -0.01263291, Bitstamp2, fee=0.01 USD)
@@ -688,8 +688,8 @@ btc -0.01263291 usd 4.98
 Lot(2015-11-06, 12.42885014, 402.4113207305917359785625350, dissallowed_loss=363.39)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('155.57374339')})
 dissallowed_loss 827.34
-total_btc 155.57374339 total_cost 58066.36 market_price 388.38
-gains 8580.88 long_term_gains 0 unrealized_gains 1528.0304578082 total 10108.9104578082
+total_btc 155.57374339 total_cost 58066.36 market_price 373.875
+gains 8580.88 long_term_gains 0 unrealized_gains -728.56669006375 total 7852.31330993625
 
 68 trade(2015-11-06 17:31:00, 42126.85, -106.65025316, Bitstamp2, fee=84.26 USD)
 trade(2015-11-06 17:31:00, 42126.85, -106.65025316, Bitstamp2, fee=84.26 USD)
@@ -701,8 +701,8 @@ Lot(2015-11-06, 4.52035578, 373.1431953791920334199889018, dissallowed_loss=52.0
 Lot(2015-11-06, 115.20956370, 373.1434146556011998854570786)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('48.92349023')})
 dissallowed_loss 46.98
-total_btc 48.92349023 total_cost 18254.75 market_price 388.38
-gains 10031.50 long_term_gains 0 unrealized_gains 699.1751355274 total 10730.6751355274
+total_btc 48.92349023 total_cost 18254.75 market_price 373.875
+gains 10031.50 long_term_gains 0 unrealized_gains -10.46009025875 total 10021.03990974125
 
 69 trade(2015-11-06 17:32:00, 19324.78, -48.92349023, Bitstamp2, fee=38.65 USD)
 trade(2015-11-06 17:32:00, 19324.78, -48.92349023, Bitstamp2, fee=38.65 USD)
@@ -713,8 +713,8 @@ Lot(2015-11-06, 0.34008273, 373.0856900613565410981028057)
 Lot(2015-11-06, 9.45035357, 373.0685813906537255621431739)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8')})
 dissallowed_loss 0.00
-total_btc 0E-8 total_cost 0.00 market_price 388.38
-gains 11015.90 long_term_gains 0 unrealized_gains 0E-10 total 11015.9000000000
+total_btc 0E-8 total_cost 0.00 market_price 373.875
+gains 11015.90 long_term_gains 0 unrealized_gains 0E-11 total 11015.90000000000
 
 70 trade(2015-11-10 22:13:00, -32525.00, 100.00000000, Bitstamp2, fee=65.05 USD)
 trade(2015-11-10 22:13:00, -32525.00, 100.00000000, Bitstamp2, fee=65.05 USD)
@@ -779,8 +779,8 @@ Wash sale Lot(2015-11-06, 1.61389535, 394.2077161322758628680601874) Lot(2015-11
 Originally bought at Lot(2015-11-06, 1.61389535, 373.1406748275221190766799099, dissallowed_loss=46.98) loss 12.98
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('100.00000000')})
 dissallowed_loss 1390.81
-total_btc 100.00000000 total_cost 32590.05 market_price 353.58
-gains 12406.71 long_term_gains 0 unrealized_gains 1377.1400000000 total 13783.8500000000
+total_btc 100.00000000 total_cost 32590.05 market_price 355.00
+gains 12406.71 long_term_gains 0 unrealized_gains 1519.1400000000 total 13925.8500000000
 
 71 transfer(2015-11-10 22:46:00, 0, -100.00000000, Bitstamp2, dest=Bitfinex)
 transfer(2015-11-10 22:46:00, 0, -100.00000000, Bitstamp2, dest=Bitfinex)
@@ -817,32 +817,32 @@ Lot(2015-11-10, 0.23900000, 325.8995815899581589958158996, dissallowed_loss=4.85
 Lot(2015-11-10, 0.28900000, 325.9169550173010380622837370, dissallowed_loss=5.87)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8'), 'Bitfinex': Decimal('100.00000000')})
 dissallowed_loss 1390.81
-total_btc 100.00000000 total_cost 32590.05 market_price 353.58
-gains 12406.71 long_term_gains 0 unrealized_gains 1377.1400000000 total 13783.8500000000
+total_btc 100.00000000 total_cost 32590.05 market_price 355.00
+gains 12406.71 long_term_gains 0 unrealized_gains 1519.1400000000 total 13925.8500000000
 
 72 trade(2015-11-11 02:08:00, -138.75, 0.43626240, Bitstamp2, fee=0.28 USD)
 trade(2015-11-11 02:08:00, -138.75, 0.43626240, Bitstamp2, fee=0.28 USD)
 btc 0.43626240 usd -139.03
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0.43626240'), 'Bitfinex': Decimal('100.00000000')})
 dissallowed_loss 1390.81
-total_btc 100.43626240 total_cost 32729.08 market_price 309.9
-gains 12406.71 long_term_gains 0 unrealized_gains -2994.692282240 total 9412.017717760
+total_btc 100.43626240 total_cost 32729.08 market_price 321.785
+gains 12406.71 long_term_gains 0 unrealized_gains -1801.00730361600 total 10605.70269638400
 
 73 trade(2015-11-11 02:08:00, -5663.87, 17.80810456, Bitstamp2, fee=11.33 USD)
 trade(2015-11-11 02:08:00, -5663.87, 17.80810456, Bitstamp2, fee=11.33 USD)
 btc 17.80810456 usd -5675.20
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('18.24436696'), 'Bitfinex': Decimal('100.00000000')})
 dissallowed_loss 1390.81
-total_btc 118.24436696 total_cost 38404.28 market_price 309.9
-gains 12406.71 long_term_gains 0 unrealized_gains -3151.160679096 total 9255.549320904
+total_btc 118.24436696 total_cost 38404.28 market_price 321.785
+gains 12406.71 long_term_gains 0 unrealized_gains -1745.82637777640 total 10660.88362222360
 
 74 trade(2015-11-11 02:08:00, -10099.88, 31.75563304, Bitstamp2, fee=20.20 USD)
 trade(2015-11-11 02:08:00, -10099.88, 31.75563304, Bitstamp2, fee=20.20 USD)
 btc 31.75563304 usd -10120.08
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('50.00000000'), 'Bitfinex': Decimal('100.00000000')})
 dissallowed_loss 1390.81
-total_btc 150.00000000 total_cost 48524.36 market_price 309.9
-gains 12406.71 long_term_gains 0 unrealized_gains -3430.170000000 total 8976.540000000
+total_btc 150.00000000 total_cost 48524.36 market_price 321.785
+gains 12406.71 long_term_gains 0 unrealized_gains -1647.42000000000 total 10759.29000000000
 
 75 transfer(2015-11-11 02:10:00, 0, -50.00000000, Bitstamp2, dest=Bitfinex)
 transfer(2015-11-11 02:10:00, 0, -50.00000000, Bitstamp2, dest=Bitfinex)
@@ -852,8 +852,8 @@ Lot(2015-11-11, 17.80810456, 318.6863588361590347715253981)
 Lot(2015-11-11, 31.75563304, 318.6861363227290902086831773)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8'), 'Bitfinex': Decimal('150.00000000')})
 dissallowed_loss 1390.81
-total_btc 150.00000000 total_cost 48524.36 market_price 309.9
-gains 12406.71 long_term_gains 0 unrealized_gains -3430.170000000 total 8976.540000000
+total_btc 150.00000000 total_cost 48524.36 market_price 321.785
+gains 12406.71 long_term_gains 0 unrealized_gains -1647.42000000000 total 10759.29000000000
 
 76 trade(2015-11-12 06:26:02, 7808.33, -23.32585156, Bitfinex, fee=7.80832880999999989768411978730000555515289306640625 USD)
 trade(2015-11-12 06:26:02, 7808.33, -23.32585156, Bitfinex, fee=7.80832880999999989768411978730000555515289306640625 USD)
@@ -872,8 +872,8 @@ Lot(2015-11-10, 3.70902057, 325.9000529080376601955593900, dissallowed_loss=75.2
 Lot(2015-11-10, 0.69616643, 325.8990813446721353685497303, dissallowed_loss=14.13)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8'), 'Bitfinex': Decimal('126.67414844')})
 dissallowed_loss 1087.60
-total_btc 126.67414844 total_cost 40923.52 market_price 331.6
-gains 12303.18167119000000010231588 long_term_gains 0 unrealized_gains -5.972377296 total 12297.20929389400000010231588
+total_btc 126.67414844 total_cost 40923.52 market_price 329.005
+gains 12303.18167119000000010231588 long_term_gains 0 unrealized_gains -334.69179249780 total 11968.48987869220000010231588
 
 77 trade(2015-11-12 06:26:05, 42404.17, -126.67414844, Bitfinex, fee=42.40417118999999956940882839262485504150390625 USD)
 trade(2015-11-12 06:26:05, 42404.17, -126.67414844, Bitfinex, fee=42.40417118999999956940882839262485504150390625 USD)
@@ -902,8 +902,8 @@ Lot(2015-11-11, 17.80810456, 318.6863588361590347715253981)
 Lot(2015-11-11, 31.75563304, 318.6861363227290902086831773)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8'), 'Bitfinex': Decimal('0E-8')})
 dissallowed_loss 0.00
-total_btc 0E-8 total_cost 0.00 market_price 331.6
-gains 12653.82750000000000053290705 long_term_gains 0 unrealized_gains 0E-9 total 12653.82750000000000053290705
+total_btc 0E-8 total_cost 0.00 market_price 329.005
+gains 12653.82750000000000053290705 long_term_gains 0 unrealized_gains 0E-11 total 12653.82750000000000053290705
 
 78 trade(2015-11-25 09:39:00, -99.80, 0.31420206, Bitstamp2, fee=0.20 USD)
 trade(2015-11-25 09:39:00, -99.80, 0.31420206, Bitstamp2, fee=0.20 USD)
@@ -912,52 +912,44 @@ Wash sale Lot(2015-11-12, 0.31420206, 334.4344718809291065755584161) Lot(2015-11
 Originally bought at Lot(2015-11-10, 0.31420206, 325.9049288219179721482411668, dissallowed_loss=6.38) loss -2.68
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0.31420206'), 'Bitfinex': Decimal('0E-8')})
 dissallowed_loss -2.68
-total_btc 0.31420206 total_cost 100.00 market_price 325.0
-gains 12651.14750000000000053290705 long_term_gains 0 unrealized_gains 4.795669500 total 12655.94316950000000053290705
+total_btc 0.31420206 total_cost 100.00 market_price 324.00
+gains 12651.14750000000000053290705 long_term_gains 0 unrealized_gains 4.4814674400 total 12655.62896744000000053290705
 
 79 withdraw(2015-11-25 09:56:00, 0.00, -0.31420206, Bitstamp2)
 
-On Wed, 25 Nov 2015 09:56:00 +0000 you sent 0.31420206 btc (~$102.12 at 325.0/btc).
+On Wed, 25 Nov 2015 09:56:00 +0000 you sent 0.31420206 btc (~$101.80 at 324.00/btc).
 None
 withdraw(2015-11-25 09:56:00, 0.00, -0.31420206, Bitstamp2)
-btc -0.31420206 usd 325.0
+btc -0.31420206 usd 324.00
 Lot(2015-11-25, 0.31420206, 318.2665320526542696760167645, dissallowed_loss=-2.68)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8'), 'Bitfinex': Decimal('0E-8')})
 dissallowed_loss 0.00
-total_btc 0E-8 total_cost 0.00 market_price 325.0
-gains 12878.82750000000000053290705 long_term_gains 0 unrealized_gains 0E-9 total 12878.82750000000000053290705
+total_btc 0E-8 total_cost 0.00 market_price 324.00
+gains 12877.82750000000000053290705 long_term_gains 0 unrealized_gains 0E-10 total 12877.82750000000000053290705
 
 80 trade(2015-12-12 09:59:00, -199.50, 0.47007540, Bitstamp2, fee=0.50 USD)
 trade(2015-12-12 09:59:00, -199.50, 0.47007540, Bitstamp2, fee=0.50 USD)
 btc 0.47007540 usd -200.00
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0.47007540'), 'Bitfinex': Decimal('0E-8')})
 dissallowed_loss 0.00
-total_btc 0.47007540 total_cost 200.00 market_price 426.06
-gains 12878.82750000000000053290705 long_term_gains 0 unrealized_gains 0.2803249240 total 12879.10782492400000053290705
+total_btc 0.47007540 total_cost 200.00 market_price 439.94
+gains 12877.82750000000000053290705 long_term_gains 0 unrealized_gains 6.8049714760 total 12884.63247147600000053290705
 
 81 withdraw(2015-12-12 10:51:00, 0.00, -0.47007540, Bitstamp2)
 
-On Sat, 12 Dec 2015 10:51:00 +0000 you sent 0.47007540 btc (~$200.28 at 426.06/btc).
+On Sat, 12 Dec 2015 10:51:00 +0000 you sent 0.47007540 btc (~$206.80 at 439.94/btc).
 None
 withdraw(2015-12-12 10:51:00, 0.00, -0.47007540, Bitstamp2)
-btc -0.47007540 usd 426.06
+btc -0.47007540 usd 439.94
 Lot(2015-12-12, 0.47007540, 425.4636596597056557309742224)
 defaultdict(<type 'int'>, {'Bitstamp2': Decimal('0E-8'), 'Bitfinex': Decimal('0E-8')})
 dissallowed_loss 0.00
-total_btc 0E-8 total_cost 0.00 market_price 426.06
-gains 13104.88750000000000053290705 long_term_gains 0 unrealized_gains 0E-10 total 13104.88750000000000053290705
+total_btc 0E-8 total_cost 0.00 market_price 439.94
+gains 13117.76750000000000053290705 long_term_gains 0 unrealized_gains 0E-10 total 13117.76750000000000053290705
 
 82 trade(2016-01-12 09:28:00, -174.56, 0.39218153, Bitstamp2, fee=0.44 USD)
-Fetching fair market values...
-https://blockchain.info/charts/market-price?timespan=all&daysAverageString=1&format=csv
-https://api.bitcoinaverage.com/history/USD/per_day_all_time_history.csv
-Done
-Fetching fair market values...
-https://blockchain.info/charts/market-price?timespan=all&daysAverageString=1&format=csv
-https://api.bitcoinaverage.com/history/USD/per_day_all_time_history.csv
-Done
-total_btc 0E-8 total_cost 0.00 market_price 462.73
-gains 13104.88750000000000053290705 unrealized_gains 0E-10
+total_btc 0E-8 total_cost 0.00 market_price 669.79
+gains 13117.76750000000000053290705 unrealized_gains 0E-10
 
 Income
 
@@ -965,21 +957,23 @@ Bitfinex 0E-8
 
 Bitstamp2 0E-8
 
+Wash sale total loss: 4770.90
 
-total_btc 0E-8 total_cost 0.00 market_price 462.73
-gains 13104.88750000000000053290705 unrealized_gains 0E-10
+
+total_btc 0E-8 total_cost 0.00 market_price 669.79
+gains 13117.76750000000000053290705 unrealized_gains 0E-10
+adjusted gains: 8346.87 wash sale deductions: 4770.90 (36.37%)
 
 date           income          buy         sell realized gains    long term   unrealized      total  
-2014-12          0.00     42005.92         0.00         0.00         0.00     -2230.92     -2230.92
-2015-01          0.00      6736.97         0.00         0.00         0.00     -5872.47     -5872.47
-2015-08          0.00     22750.00         0.00         0.00         0.00     -6179.50     -6179.50
-2015-10          0.00         0.00     77248.91      5756.02         0.00     14282.89     20038.91
-2015-11          0.00    141909.51    149032.32      7122.81         0.00         0.00      7122.81
-2015-12          0.00       200.00       426.06       226.06         0.00         0.00       226.06
+2014-12          0.00     42005.92         0.00         0.00         0.00     -1409.04     -1409.04
+2015-01          0.00      6736.97         0.00         0.00         0.00     -6515.10     -6515.10
+2015-08          0.00     22750.00         0.00         0.00         0.00     -7101.25     -7101.25
+2015-10          0.00         0.00     77248.91      5756.02         0.00     15025.39     20781.41
+2015-11          0.00    141909.51    149031.32      7121.81         0.00         0.00      7121.81
+2015-12          0.00       200.00       439.94       239.94         0.00         0.00       239.94
 
 Annual
-2014             0.00     42005.92         0.00         0.00         0.00     -2230.92     -2230.92
-2015             0.00    171596.48    226707.29     13104.89         0.00      2230.92     15335.81
+2014             0.00     42005.92         0.00         0.00         0.00     -1409.04     -1409.04
+2015             0.00    171596.48    226720.17     13117.77         0.00      1409.04     14526.81
 
-All time         0.00    213602.40    226707.29     13104.89         0.00         0.00     13104.89
-
+All time         0.00    213602.40    226720.17     13117.77         0.00         0.00     13117.77
